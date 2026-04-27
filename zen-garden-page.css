@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-color: rgba(175, 238, 238, 0.3);
+  position: relative;
+}
+.shadow {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 380px;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.container {
+  background-color: rgb(119, 189, 222);
+  /* height: 100vh; */
+  width: 90%;
+  margin: 60px auto;
+}
+.first {
+  padding: 60px 60px 30px 60px;
+  margin-bottom: 20px;
+}
+.first h1 {
+  display: inline-block;
+  background-color: crimson;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px 40px;
+}
+.second {
+  background-color: rgb(119, 189, 222);
+  color: white;
+  padding: 10px 60px 30px 60px;
+  margin-bottom: 40px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.second h1 {
+  font-size: 120px;
+  letter-spacing: 4px;
+  line-height: 120px;
+}
+.second span {
+  border-bottom: 1px dashed white;
+}
+hr {
+  border-bottom: 1px solid crimson;
+}
+.second p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.third {
+  background-color: white;
+  color: #393939;
+  padding: 60px 60px 30px 120px;
+  position: absolute;
+  width: 700px;
+  top: 1000px;
+  left: 0;
+}
+.third h2 {
+  display: inline-block;
+  background-color: #393939;
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.third p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
