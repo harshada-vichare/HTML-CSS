@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+}
+.container {
+  background-color: white;
+  height: 900px;
+  position: relative;
+}
+.container2 {
+  height: 500px;
+  background-color: tomato;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+.first {
+  background-color: aqua;
+  position: sticky;
+  top: 10px;
+  left: 400px;
+  z-index: 1;
+}
+.second {
+  background-color: bisque;
+  position: fixed;
+  left: 500px;
+}
+.third {
+  background-color: yellowgreen;
+  position: absolute;
+  bottom: 30px;
+  left: 400px;
+}
+.fourth {
+  background-color: orange;
+  position: relative;
+  left: 600px;
+  top: 50px;
+}
