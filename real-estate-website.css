@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3 {
+  font-family: "Instrument Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+header {
+  background-color: blanchedalmond;
+  padding: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navbar li {
+  padding: 20px 5px;
+}
+.navbar li a {
+  text-decoration: none;
+}
+main {
+  position: relative;
+}
+#top {
+  height: 90vh;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+}
+#top img {
+  width: 720px;
+  /* height: 500px; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#top h1 {
+  margin: 0 0 25px 30px;
+  font-size: 60px;
+}
+#top h2 {
+  margin: 0 0 0 30px;
+  font-size: 38px;
+}
+#top h2 span {
+  border-bottom: 2px dashed black;
+  color: blanchedalmond;
+  font-size: 30px;
+}
+#about {
+  /* height: 50vh; */
+  padding: 60px 20px;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about h2 {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+#about p {
+  margin-bottom: 10px;
+}
+#about button {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: blanchedalmond;
+  border: 2px solid cadetblue;
+}
+#projects {
+  /* height: 90vh; */
+  padding: 60px 20px;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#projects h2 {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+#projects .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#projects .box {
+  width: 250px;
+  background-color: beige;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid blanchedalmond;
+}
+#projects img {
+  width: 100%;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+#projects p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+#projects button {
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: blanchedalmond;
+  border: 2px solid cadetblue;
+}
+#contact {
+  /* height: 90vh; */
+  padding: 60px 20px;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact h2 {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+#contact form {
+  background-color: cadetblue;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 10px;
+}
+#contact .form-data {
+  margin: 20px 10px;
+}
+#contact label {
+  font-size: 18px;
+}
+#contact input,
+#contact select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+#contact button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: blanchedalmond;
+  border: 2px solid cadetblue;
+}
+#contact button[type="submit"] {
+  background-color: rgb(89, 197, 201);
+  border: 2px solid blanchedalmond;
+}
+#arrow img {
+  height: 30px;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+}
+footer {
+  background-color: blanchedalmond;
+  padding: 20px;
+}
+footer p {
+  text-align: center;
+}
+a:hover,
+button:hover {
+  opacity: 0.8;
+}

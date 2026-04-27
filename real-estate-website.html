@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Estate Website HTML</title>
+    <link rel="stylesheet" href="./real-estate-website.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="home">
+      <nav aria-label="Main navigation">
+        <ul class="navbar">
+          <li><h2>Real Estate</h2></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Request a call</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="top">
+        <h1>Welcome to Real Estate</h1>
+        <h2>We serve <span>best for our customers</span>!</h2>
+        <img src="./home12.png" alt="Building in photo" />
+      </section>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum,
+          voluptatibus?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
+          deleniti eius. <br />Vero consequuntur sequi nulla adipisci
+          repudiandae, ipsam reiciendis quibusdam!
+        </p>
+        <button type="button">View more details</button>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="container">
+          <div class="box">
+            <img src="./home2.jpg" alt="building" />
+            <p>Building name</p>
+            <button type="button">Know more</button>
+          </div>
+          <div class="box">
+            <img src="./home2.jpg" alt="building" />
+            <p>Building name</p>
+            <button type="button">Know more</button>
+          </div>
+          <div class="box">
+            <img src="./home2.jpg" alt="building" />
+            <p>Building name</p>
+            <button type="button">Know more</button>
+          </div>
+          <div class="box">
+            <img src="./home2.jpg" alt="building" />
+            <p>Building name</p>
+            <button type="button">Know more</button>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="#">
+          <div class="form-data">
+            <label for="name">Name :</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="form-data">
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-data">
+            <label for="phone">Phone :</label>
+            <input type="tel" name="phone" id="phone" required />
+          </div>
+          <div class="form-data">
+            <label for="city">City :</label>
+            <input type="text" name="city" id="city" />
+          </div>
+          <div class="form-data">
+            <label for="query">Enquiry for :</label>
+            <select name="query" id="query">
+              <option value="basic">Basic</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+          </div>
+          <div>
+            <button type="reset">Cancel</button>
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </section>
+      <section id="arrow">
+        <a href="#home"><img src="./up-arrow.jpg" alt="Back to top" /></a>
+      </section>
+    </main>
+    <footer><p>&copy; 2026 Real Estate. All rights reserved.</p></footer>
+  </body>
+</html>
