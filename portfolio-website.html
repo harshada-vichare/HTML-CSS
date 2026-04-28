@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./portfolio-website.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="top">
       <!-- sidebar -->
       <aside class="left">
         <!-- title -->
@@ -23,7 +23,7 @@
           <p>Phone</p>
           <a href="#">9898989898</a>
           <p>Location</p>
-          <a href="#">Mumbai, India</a>
+          <span>Mumbai, India</span>
         </div>
         <!-- links -->
         <div class="links">
@@ -116,7 +116,7 @@
           <h2>Education</h2>
           <div class="line"></div>
           <div class="education-data">
-            <div>
+            <div class="education-info">
               <p>2020-2022</p>
               <h3>MSC</h3>
               <em>IIT</em>
@@ -125,8 +125,9 @@
                 Officiis hic pariatur, tempora omnis labore eos vero nobis
                 accusamus eius animi.
               </p>
+              <div class="dot"></div>
             </div>
-            <div>
+            <div class="education-info">
               <p>2016-2020</p>
               <h3>BSC</h3>
               <em>IIT</em>
@@ -135,75 +136,83 @@
                 Officiis hic pariatur, tempora omnis labore eos vero nobis
                 accusamus eius animi.
               </p>
+              <div class="dot"></div>
             </div>
+            <div class="v-line"></div>
           </div>
         </section>
         <!-- Portfolio -->
         <section id="portfolio">
           <h2>Portfolio</h2>
           <div class="line"></div>
-          <div class="project">
-            <div class="project-img">
-              <img src="./e-commerce-website.jpg" alt="E-commerce website" />
+          <div class="project-container">
+            <div class="project">
+              <div class="project-img">
+                <img src="./e-commerce-website.jpg" alt="E-commerce website" />
+              </div>
+              <div class="project-data">
+                <h3>E-Commerce Website</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Recusandae, ipsam!
+                </p>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
             </div>
-            <div class="project-data">
-              <h3>E-Commerce Website</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Recusandae, ipsam!
-              </p>
-              <span>HTML</span>
-              <span>CSS</span>
+            <div class="project">
+              <div class="project-img">
+                <img
+                  src="./business-landing-page.jpg"
+                  alt="Business landing page"
+                />
+              </div>
+              <div class="project-data">
+                <h3>Business Landing Page</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Recusandae, ipsam!
+                </p>
+                <span>HTML</span>
+                <span>CSS</span><span>Flexbox</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-img">
+                <img
+                  src="./analytics-dashboard.jpg"
+                  alt="Analytics dashboard"
+                />
+              </div>
+              <div class="project-data">
+                <h3>Analytics Dashboard UI</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Recusandae, ipsam!
+                </p>
+                <span>Grid</span>
+                <span>UI/UX</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-img">
+                <img src="./personal-blog.jpg" alt="Personal blog site" />
+              </div>
+              <div class="project-data">
+                <h3>Personal Blog</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Recusandae, ipsam!
+                </p>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
             </div>
           </div>
-          <div class="project">
-            <div class="project-img">
-              <img
-                src="./business-landing-page.jpg"
-                alt="Business landing page"
-              />
-            </div>
-            <div class="project-data">
-              <h3>Business Landing Page</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Recusandae, ipsam!
-              </p>
-              <span>HTML</span>
-              <span>CSS</span><span>Flexbox</span>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project-img">
-              <img src="./analytics-dashboard.jpg" alt="Analytics dashboard" />
-            </div>
-            <div class="project-data">
-              <h3>Analytics Dashboard UI</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Recusandae, ipsam!
-              </p>
-              <span>Grid</span>
-              <span>UI/UX</span>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project-img">
-              <img src="./personal-blog.jpg" alt="Personal blog site" />
-            </div>
-            <div class="project-data">
-              <h3>Personal Blog</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Recusandae, ipsam!
-              </p>
-              <span>HTML</span>
-              <span>CSS</span>
-            </div>
-          </div>
+          <div id="up"><a href="#top">Go up</a></div>
         </section>
         <footer>
-          <p>&copy; 2026 Porfolio Website. All rights reserved.</p>
+          <p>&copy; 2026 <span>Porfolio Website</span>. All rights reserved.</p>
         </footer>
       </section>
     </div>
